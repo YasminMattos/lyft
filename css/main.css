@@ -1,0 +1,85 @@
+
+/*Clases reutilizables*/
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/*Estilos de la barra de navegación*/
+
+header {
+    background-image:url(../assets/images/hero.gif);
+    background-repeat: no-repeat;
+    size: cover;
+}
+.bar-menu {
+    outline: 1px solid orange;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 21px;
+    width: 100%;
+    line-height: 20px;
+}
+
+.nav {
+    box-sizing: border-box;
+    float: left;
+}
+
+.logo {
+    margin: 10px 670px 0px 28px;
+}
+.menu {
+    outline: 1px solid green;
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    transform: translateY(3px);
+    width: 320px;
+    overflow: auto;
+}
+
+li {
+    outline-color: 1px solid blue;
+    float: left;
+    text-align: center;
+    margin: 21px;
+
+}
+
+.anchor-1 {
+    text-decoration: none;
+    display: block;
+}
+
+.button-1 {
+    border: 1px solid white;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 18px;
+    transform: translateY(8px);
+    border-radius: 12px 12px 12px 12px;
+    -moz-border-radius: 12px 12px 12px 12px;
+    -webkit-border-radius: 12px 12px 12px 12px;
+    background: #290e40;
+    color: #fff;
+    margin-left: 21px;
+    padding: 14px;
+}
+
+/*Sección turn miles*/
+.content {
+    box-sizing: border-box;
+  
+}
+
+.form {
+    float: right;
+}
