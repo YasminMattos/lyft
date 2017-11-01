@@ -13,17 +13,23 @@
 /*Estilos de la barra de navegación*/
 
 header {
-    background-image:url(../assets/images/hero.gif);
+    background-image: url(../assets/images/hero.gif);
     background-repeat: no-repeat;
-    size: cover;
+    overflow: auto;
+    background-size: cover;
 }
 .bar-menu {
-    outline: 1px solid orange;
     box-sizing: border-box;
     display: inline-block;
     padding: 21px;
     width: 100%;
     line-height: 20px;
+}
+
+.gif {
+   
+    width: 100%;
+    height: auto;
 }
 
 .nav {
@@ -34,8 +40,8 @@ header {
 .logo {
     margin: 10px 670px 0px 28px;
 }
+
 .menu {
-    outline: 1px solid green;
     box-sizing: border-box;
     list-style: none;
     padding: 0;
@@ -47,39 +53,194 @@ header {
 }
 
 li {
-    outline-color: 1px solid blue;
     float: left;
     text-align: center;
     margin: 21px;
 
 }
 
-.anchor-1 {
+.anchor-1, .anchor-button {
     text-decoration: none;
     display: block;
+    color: white;
+} 
+
+.anchor-1:hover {
+    color: #FF00BF;
 }
 
 .button-1 {
     border: 1px solid white;
     box-sizing: border-box;
+    box-shadow: 0 0 10px #fff;
     display: inline-block;
     font-size: 18px;
-    transform: translateY(8px);
+    transform: translateY(14px);
     border-radius: 12px 12px 12px 12px;
     -moz-border-radius: 12px 12px 12px 12px;
     -webkit-border-radius: 12px 12px 12px 12px;
     background: #290e40;
     color: #fff;
     margin-left: 21px;
-    padding: 14px;
+    padding: 7px 14px;
 }
 
-/*Sección turn miles*/
+/*Estilos del formulario*/
 .content {
     box-sizing: border-box;
   
 }
 
-.form {
+.sub-content {
     float: right;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 20px;
+    height: 520px;
+    width: 560px;
+}
+
+.form {  
+    box-sizing: border-box;
+    display: block;
+    margin: 42px;
+    transform: translateY(28px);
+    width: 440px;
+}
+
+.title-form {
+    color: #352384;
+    margin-bottom: 28px;
+}
+
+h1 , h2 {
+     font-size: 40px;
+     font-weight: bold;
+     line-height: 44px;
+}
+
+#sub-title {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+
+.input {
+    margin-bottom: 35px;
+    box-sizing: border-box;
+    height: 120px;
+}
+
+input {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #728099;
+    font-size: 16px;
+    width: 100%;
+}
+
+.buttons {
+    margin-top: 42px;
+    box-sizing: border-box;
+}
+
+.button-2 {
+    border: 1px solid #ff00bf;
+    background: #ff00bf;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 17px;
+    padding: 14px 28px;
+}
+
+.button-3 {
+    border: none;
+    background: none;
+    font-size: 16px;
+
+}
+
+.anchor-button2 {
+    color: #728099;
+}
+
+.anchor-button2:hover {
+    color: #ff00bf;
+}
+
+.small-text {
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #728099;
+}
+
+.anchor-small-text {
+    color: #ff00bf;
+    text-decoration: none;
+}
+
+.anchor-small-text:hover{
+    text-decoration: underline;
+}
+
+/*Body: Sección 1*/
+.section-1{
+    background: linear-gradient(#76278F, #2B1E66);
+    box-sizing: border-box;
+}
+
+.sub-section1 {
+    box-sizing: border-box;
+    width: 100%;
+    height: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.paragraphs {
+    box-sizing: border-box;
+    display: inline-block;
+    color: #fff;
+    line-height: 30.8px;
+    margin-left: 120px;
+    position: relative;
+    text-align: justify;
+    transform: translateY(-42px);
+    width: 460px;
+    height:auto;
+    
+}
+
+.text-container {
+    margin-bottom: 56px;
+}
+
+#subtitles {
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 16px;
+    text-shadow: 0.5px 0.5px #fff;
+
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.cell {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    width: 500px;
+    margin-top: 80px;
+    margin-right:120px;
+    margin-left: 80px;
+    
 }
