@@ -4,7 +4,8 @@
 
 - ## **Objetivo**
 
-  Replicar el sitio de **Lyft**, este será el resultado
-  a lograr:
+  Replicar el sitio de **Lyft**.
+  
+  El resultado a lograr debe ser el siguiente:
 
-  ![Lyft Website](docs/fullpage.png)
+  ![Lyft Website](assets/docs/fullpage.png)
