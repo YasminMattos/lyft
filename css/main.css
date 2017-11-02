@@ -41,7 +41,6 @@ header {
 .gif {
    
     width: 100%;
-    height: auto;
 }
 
 .nav {
@@ -201,15 +200,23 @@ input {
 }
 
 /*Body: Sección 1*/
+.opacity{
+    background: linear-gradient( transparent, #76278F);
+    width:787px;
+    height: 100px;
+    float: left;
+    transform: translateY(-100px);
+    z-index: 1000;
+ }
+ 
 .section-1{
-    background: linear-gradient(#76278F, #2B1E66);
+    background: linear-gradient( #76278F, #2B1E66);
     box-sizing: border-box;
 }
 
 .sub-section1 {
     box-sizing: border-box;
     width: 100%;
-    height: 720px;
     margin: 0 auto;
     text-align: center;
 }
@@ -222,7 +229,7 @@ input {
     margin-left: 120px;
     position: relative;
     text-align: justify;
-    transform: translateY(-42px);
+    transform: translateY(-90px);
     width: 460px;
     height:auto;
     
@@ -237,7 +244,7 @@ input {
     display: inline-block;
     position: relative;
     width: 500px;
-    margin-top: 80px;
+    margin-top: 10px;
     margin-right:120px;
     margin-left: 80px;
     
@@ -255,7 +262,6 @@ input {
     padding: 0;
     margin: 0;
     width: 100%;
-    height: 515px;
     
 }
 
